@@ -1,0 +1,922 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, Open Sans, sans-serif!important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+.faqnew{    padding: 40px 7%;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.40);
+    position: relative;
+    background: url(../media/blue_bg.png) no-repeat center center;
+    background-size: cover;
+    align-items: normal;}
+.faqnew p{ color: #fff;
+    font-size: 16px;
+    line-height: 30px;}
+.faq {
+	padding: 40px 7%;
+	background: url(../media/aboutus.png) no-repeat ;
+	background-size: cover;
+	
+}
+
+.faq h1 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 5px
+}
+
+
+
+.faq .question {
+	color: #fff;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 650;
+	margin-bottom: 8px
+}
+
+.faq .answer {
+	color: #000;
+	font-size: 14px
+}
+
+.faq p {
+	color: #fff;
+	margin-bottom: 0;
+	font-size: 12px
+}
+
+@media (max-width:800px) {
+    
+	.faq {
+		padding: 30px 5%
+	}
+	.faq p {
+		font-size: 10px;
+		text-align: justify
+	}
+	.faq div {
+		padding: 0
+	}
+	.faq h1 {
+		font-size: 20px
+	}
+}
+
+.roiHeader {
+	color: #fff;
+	margin-bottom: 40px;
+	padding: 0 5%
+}
+
+.roiHeader img {
+	width: 130px;
+	float: left;
+	margin-top: -15px
+}
+
+.roiHeader p {
+	display: inline-block;
+	margin: 0px;
+	text-align: right
+}
+
+.flag img {
+	width: 25px;
+	margin: 0;
+	float: none
+}
+
+@media(max-width:800px) {
+	.roiHeader {
+		color: #fff;
+		margin-bottom: 20px;
+		padding: 0 2%
+	}
+	.roiHeader img {
+		width: 120px;
+		float: left;
+		margin-top: -5px
+	}
+	.roiHeader p {
+		display: inline-block;
+		
+		text-align: right;
+		font-size: 12px
+	}
+	.flag img {
+		width: 25px;
+		margin: 0;
+		float: none
+	}
+}
+
+.Countdown {
+	margin: 10px auto
+}
+
+.Countdown-col {
+	display: inline-block
+}
+
+.Countdown-col-element {
+	display: inline-block;
+	margin: 0 3px;
+	display: flex;
+	flex-direction: column
+}
+
+.Countdown-col-element strong {
+	text-align: center;
+	font-size: 35px;
+	color: #ffffff
+}
+
+.Countdown-col-element .countdownUnit {
+	font-size: 50px;
+	margin-top: -10px;
+	color: #fff;
+	text-align: center
+}
+
+.Countdown-small {
+	margin: 0
+}
+
+.Countdown-col-small {
+	display: inline-block
+}
+
+.Countdown-col-element-small {
+	display: inline-block;
+	margin: 0 2px;
+	display: flex;
+	flex-direction: column
+}
+
+.Countdown-col-element-small strong {
+	font-size: 16px;
+	color: grey
+}
+
+.Countdown-col-2 {
+	display: inline-block
+}
+
+.Countdown-col-element-2 {
+	display: inline-block;
+	margin: 0 5px;
+	display: flex;
+	flex-direction: column
+}
+
+.Countdown-col-element-2 strong {
+	font-size: 40px;
+	color: #fff
+}
+
+@media (max-width:1024px) {
+	.Countdown-col-element strong {
+		font-size: 22px
+	}
+}
+
+@media (max-width:512px) {
+	.Countdown {
+		margin: 0
+	}
+	.Countdown-col-element {
+		margin: 0 2px;
+		font-size: 15px
+	}
+	.Countdown-col-element strong {
+		font-size: 20px
+	}
+	.Countdown-col-element-small strong,
+	.Countdown-col-element .countdownUnit {
+		font-size: 12px
+	}
+}
+
+.roi {
+	color: #444
+}
+
+.roiSection {
+	padding: 40px 7%;
+/*	background: #0f1339;
+background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(255,255,255,1) 50%, rgba(232,232,232,1) 100%);*/
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.40);
+    position: relative;
+	 background: url(../media/blue_bg.png) no-repeat center center;
+	 background-size: cover;    align-items: normal;
+	
+}
+.roiSection:before{    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+         background: url(../media/tron_fly.png) no-repeat center center;
+    right: 0;
+    top: 0;    z-index: 0;
+	    background-size: 10%;
+}
+.roiBackground {
+	background: url(../media/background.png) no-repeat ;
+	background-position: 50%;
+	background-size: cover;
+	padding: 20px 50px 50px
+}
+
+.linkSection {
+	margin-top: 30px
+}
+
+.roiPromptSection {
+	padding: 5%
+}
+
+.roiPromptSection h1 {
+	margin-bottom: 0;
+	font-weight: 900;
+	font-size: 35px;
+	color: #ffffff
+}
+.roiPromptSection h1:first-child span{font-size: 60px;}
+.roiPromptSection p {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 0;
+	color: #ffffff
+}
+
+.releaseCoundown {
+	font-size: 20px!important;
+	margin-bottom: 20px!important;
+	font-weight: 700!important
+}
+
+.referralInfo {
+	color: #959595!important;
+	font-size: 14px!important
+}
+
+.contractBalance {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.contractBalance p {
+	font-size: 22px;
+	font-weight: 700;
+	color: #444;
+	margin-bottom: 0
+}
+
+.contractBalance span {
+	margin-left: 15px
+}
+
+.contractBalanceNumber {
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 0!important
+}
+
+.checkContract {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 650;
+	margin-top: 20px;
+	white-space: nowrap
+}
+
+.checkContract a {
+	    color: #fff;
+    background-color: #0F6ADF;
+    border-radius: 50px;
+    padding: 8px 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.dataSection {
+	padding: 30px 0 40px
+}
+
+.dataSection h1 {
+	font-weight: 700;
+	font-size: 48px;
+	display: block;
+	color: #6A15CB;
+	margin: 0
+}
+
+.dataSection p {
+	    padding: 1.5px 10px;
+    margin-bottom: 0;
+    font-size: 14px; 
+    color: #ffffff;
+    display: inline-block;
+    background: #f53eba;    position: relative;    height: 24px;
+}
+.dataSection p:before {
+        content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 12px solid #f53eba;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #f53eba;
+    border-top: 12px solid transparent;
+    right: -24px;
+    top: 0;
+}
+.dataSection p:after {
+           content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 12px solid transparent;
+    border-right: 12px solid #f53eba;
+    border-bottom: 12px solid #f53eba;
+    border-top: 12px solid transparent;
+    left: -24px;
+    top: 0;
+}
+.tronscanButton {
+	margin-left: 5%
+}
+
+.fixHeightDiv {
+	    margin-top: 20px;
+}
+.refRewards {
+	    color: #6d14c6;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.investSection .fixHeightDiv div p{display: inline-block;    width: 33%; vertical-align:top; padding:0 15px;color: #48fb09;margin: 5px 0;}
+
+
+.compoundCalc {
+	padding: 30px 0;
+	border-top: 2px solid #d7d4d4
+}
+
+.compoundCalc h1 {
+	color: #555186;
+	font-size: 25px
+}
+
+.compoundCalc a,
+.compoundCalc h1 {
+	font-weight: 600;
+	margin-bottom: 5px
+}
+
+.compoundCalc a {
+	font-size: 20px;
+	width: 80%;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+
+.investReferral {
+	    padding: 50px 8% 10px;
+}
+
+.investImage {
+	padding: 0 80px
+}
+
+.investImage{
+	vertical-align: middle
+}
+
+.investPrompt h1 {
+	color: #555186;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	margin: 60px auto
+}
+
+
+.investPrompt h2:after {
+        content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 12px solid transparent;
+    border-right: 12px solid #48fb09;
+    border-bottom: 24px solid #48fb09;
+    border-top: 26px solid transparent;
+    left: -24px;
+    top: 0;
+}
+.investPrompt h2{    height: 50px;
+	    font-size: 40px;
+    color: #0f1339;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background: #48fb09;
+    display: inline-block;
+    padding: 0px 20px;
+    line-height:50px;    position: relative;
+}
+
+
+
+.refTitle h2 {
+	color: #6d14c6;
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 30px;
+	text-align: center;    text-transform: uppercase;
+}
+
+
+
+
+.investInput .ant-input-affix-wrapper{    width: 55%;
+    display: inline-block;
+    vertical-align: top;
+}
+.preinvite{    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.preinvite p {
+	color: #f53eba;
+	margin: 5px 0;
+	font-size: 16px;
+  text-align: center;
+}
+.investInput {
+	width: 100%;
+	margin-top: 20px
+}
+.roiSection .investSection{    padding-right: 8%;}
+.investInput .ant-input-affix-wrapper .ant-input:not(:last-child) {
+	    padding-left: 50px;
+    border: 1px dashed #48fb09;
+    background: none;
+    color: #fff;
+}
+
+.investButton {
+	  
+    border-radius: 50px;
+    color: #fff;
+    background-color: #0f6add;    text-align: center;
+	    font-size: 16px;
+    width: 130px;
+    font-weight: 650;
+    padding: 9px 20px;
+}
+
+.buttonDisabled{
+	font-size: 16px;
+	width: 30%;
+	font-weight: 650;
+	padding: 6px 20px
+}
+
+.buttonDisabled {
+	margin-left: 20px;
+	display: inline-block;
+	border-radius: 10px;
+	background-color: #d3d3d3
+}
+
+.buttonDisabled:hover {
+	cursor: not-allowed
+}
+
+.investButton:hover {
+	cursor: pointer
+}
+
+.investButton:active {
+	opacity: .8
+}
+
+.statusPrompt {
+	font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+    background: #6d14c6;
+    display: inline-block;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border-radius: 50px;    display: none;
+}
+
+.ROI200 .referralStatus {
+	    width: 90%;    align-items: initial;
+}
+.ROI200 .referralStatus img{    max-width: 100%;}
+.ROI200 .referralStatus p {
+	color: #f53eba;
+	font-size: 15px;
+	font-weight: 600;     margin-bottom: 22px;
+}
+
+.trxProfit {
+	font-family: -apple-system, Open Sans, sans-serif!important
+}
+
+.withdrawSection {
+	padding:0 0 0 16%;    color: #f53eba;
+}
+
+.withdrawImage,
+.withdrawSection {
+	vertical-align: middle
+}
+
+.withdrawImage {
+	padding: 0 80px
+}
+
+
+
+.withdrawPrompt h1{
+	    font-size: 17px;
+    margin-top: -40px;
+    margin-bottom: 15px;
+    display: table;
+    margin-right: 0;
+    margin-left: auto;    text-align: left;
+    width: 35%;
+    color: #fff;	font-weight: 600 ; 
+}
+.withdrawPrompt h2:after {
+      content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 12px solid #48fb09;
+    border-right: 12px solid transparent;
+    border-bottom: 24px solid #48fb09;
+    border-top: 26px solid transparent;
+    right: -24px;
+    top: 0;
+}
+.withdrawPrompt h2 {
+	font-size: 25px;
+    color: #0f1339;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background: #48fb09;
+    display: inline-block;
+    padding: 0px 20px;
+    line-height: 50px;
+    position: relative;
+    height: 50px;
+	
+}
+
+
+.withdrawPrompt p {
+	    color: #f53eba;
+    text-align: left;
+    font-size: 14px;
+}
+.withdrawPrompt p.withdrawable{ overflow:hidden;    width: 64%;}
+.withdrawPrompt p.withdrawable:after {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+}
+p.withdrawable div{    background: #111541;
+    display: inline-block;}
+.withdrawable {
+	color: #444;
+	padding: 0;
+	font-weight: 600
+}
+
+.withdrawButton {
+	display: inline-block
+}
+
+.reInvestButton p {
+	background-color: #0f6add!important;
+	
+}
+
+.withdrawButton p {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #fff;
+	font-size: 14px;
+	display: inline-block;
+	font-weight: 650;
+	padding: 7px 20px;
+	margin-top: 20px;
+	border-radius: 50px;
+	margin-bottom: 0;
+	    background: #6a15ca;
+}
+.fixHeightDiv p span{     color: #ef42b8!important;    display: block;}
+
+.withdrawButton:hover {
+	cursor: pointer
+}
+
+.withdrawButton:active {
+	opacity: .8
+}
+
+.withdrawBottomPrompt p {
+	margin-top: 5px;
+	margin-bottom: 0;
+	color: #fff;font-weight: 600;width: 160px;
+}
+
+.totalPayout {
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 700
+}
+
+.totalPayout span {
+	font-size: 20px;
+	font-weight: 500
+}
+
+.vipStatus {
+	margin-bottom: 40px
+}
+
+.vipStatus img {
+	width: 50px;
+	margin-left: 50px
+}
+
+.vipStatus p {
+	margin-left: 0;
+	color: #444;
+	font-size: 14px;
+	font-weight: 600
+}
+
+.vipStatus span {
+	margin-left: 20px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	font-weight: 700
+}
+
+.investSubPrompt h3 {
+	color: #444;
+	font-weight: 600
+}
+
+.ROI200 .referralLink {
+	    border-radius: 50px;
+    padding: 8px 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px dashed #444;
+}
+
+
+.ROI200 .referralLink {
+	margin-top: 10px;
+	font-weight: 600;
+	font-size: 13px
+}
+
+
+.ROI200 .copyButton {
+	border-radius: 50px;
+	background-color: #6d14c6;
+	padding: 10px 10px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	    margin-bottom: 25px; text-align:center
+}
+
+.ROI200 .copyButton:hover {
+	cursor: pointer
+}
+
+.ROI200 .copyButton:active {
+	opacity: .8
+}
+
+.ROI200 .referralLinkSection p {
+	margin-bottom: 0
+}
+
+.ROI200 .referralLinkSection h6 {
+	margin: 0;
+	color: #959595;
+	font-size: 14px;
+	text-align: left
+}
+
+.referralRewards {
+	text-align: right;
+	font-size: 16px!important;
+	font-weight: 600
+}
+
+.referralRewards span {
+	margin-left: 10px
+}
+.suresh{padding: 0;    margin: 60px 0 0;}
+.suresh li{    list-style: none;
+    margin-bottom: 20px;
+    color: #39a8ff;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600; padding-left:100px}
+.suresh li:before{ content: "";
+    width: 73px;
+    height: 1px;
+    position: absolute;
+    background: #931a9d;
+    left: -24px;
+    top: 10px;
+    background: linear-gradient(90deg, #931a9d 0%, #242b83 100%);}
+.graf_box{padding: 15px 40px 30px;}
+.graf_box .ant-col-8{text-align: center;}
+.graf_box .ant-col-8 img{    max-width: 100%;}
+
+
+@media (max-width:800px) {
+.investReferral {    padding: 30px 5% 10px;}
+.investSection .fixHeightDiv div p { padding: 0 5px;font-size: 12px;}
+.preinvite{ width: 100%;margin-top: 20px;    margin-bottom: 140px;}
+.investInput .ant-input-affix-wrapper {width: 100%;}
+.ant-divider, .ant-divider-vertical{height: 6em;}
+.graf_box .ant-col-12, .graf_box .ant-col-8{width: 100%;}
+.suresh li{    padding-left: 15px;font-size: 13px;}
+.suresh li:before{    width: 35px;}
+.suresh { margin: 30px 0 0;}
+	.roiSection {
+		padding: 0
+	}
+	.linkSection {
+		margin-top: 10px
+	}
+	.contractBalance p {
+		font-size: 12px;
+		font-weight: 700;
+		color: #444;
+		margin-bottom: 0
+	}
+	.contractBalanceNumber {
+		font-size: 16px
+	}
+	.checkContract {
+		font-size: 12px
+	}
+	.checkContract a {
+		font-size: 9px;
+		padding: 10px 15px
+	}
+	.roiBackground {
+		padding: 20px 15px 30px
+	}
+	.roiPromptSection {
+		width: 100%
+	}
+	.roiPromptSection h1 {
+		font-weight: 900;
+		font-size: 20px
+	}
+	.roiPromptSection p {
+		font-size: 12px
+	}
+	.withdrawSection {
+		padding: 40px 5%!important
+	}
+.roiSection .investSection {
+		padding: 40px 5%!important
+	}
+.faqnew p {font-size: 15px;line-height: 23px;}	
+	.withdrawSection {
+		margin-top: 20px;
+	}
+	.roiSection:before{    background-size: 30%; top:2%;}
+	.withdrawButton {
+		margin-left: 0
+	}
+	.withdrawButton p {
+		font-size: 14px;
+		padding: 6px 20px
+	}
+	.referralInfo {
+		text-align: justify
+	}
+	.vipStatus img {
+		width: 30px
+	}
+	.vipStatus p {
+		display: inline-block;
+		margin-left: 30px;
+		color: #444;
+		font-size: 16px;
+		font-weight: 700
+	}
+	.vipStatus span {
+		margin-left: 20px;
+		margin-right: 10px;
+		font-size: 14px;
+		font-weight: 600
+	}
+	.ROI200 .referralLinkSection h6 {
+		font-size: 10px
+	}
+	.investReferral {
+		background-color: #f7f7f7
+	}
+	.ROI200 .referralStatus {
+		width: 100%
+	}
+	.dataSection {
+		padding: 10px 0 20px
+	}
+	.dataSection .ant-col-12{    width: 100%;}
+	.dataSection h1 {
+		font-weight: 700;
+		font-size: 25px;
+		display: block;
+		color: #555186;
+		margin: 10px 0 0
+	}
+	.dataSection p {
+		font-size: 12px
+	}
+	.ROI200 .referralStatus p {
+		font-size: 10px
+	}
+	.refTitle h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.refRewards {
+		font-size: 14px
+	}
+	.compoundCalc h1 {
+		font-size: 18px
+	}
+	.compoundCalc a {
+		font-size: 14px
+	}
+
+.withdrawPrompt, .withdrawPrompt .blueText p{ text-align:center}
+.withdrawBottomPrompt p {
+    width: 100%;
+    text-align: center;
+}
+.withdrawPrompt h1{
+font-size: 15px;}
+}
+
+.App {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400!important
+}
+
+.blueText {
+	color: #13237a
+}
+
+.clickableButton {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-transform: uppercase
+}
+
+.clickableButton:hover {
+	cursor: pointer
+}
+
+.clickableButton:active {
+	opacity: .8
+}
+
